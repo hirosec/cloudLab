@@ -12,7 +12,7 @@ Credits: [HiroSec] https://github.com/hirosec
 ```#------------------------------------------------------------------------------- 
 </pre>
 <pre><code>
-```# Default Package Update
+# Default Package Update
 apt update -y -q && apt upgrade -y -q 
 </code></pre>
 
