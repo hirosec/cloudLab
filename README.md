@@ -26,6 +26,17 @@ ansible --version
 ansible localhost -m setup  
 </code></pre>
 
+
+<pre><code>
+#-------------------------------------------------------------------------------
+# Custom Package Installation [Terraform]
+#-------------------------------------------------------------------------------
+apt install -y -q terraform
+
+apt show terraform
+
+terraform --version  
+</code></pre>
 ## License
 
 MIT
