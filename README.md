@@ -6,27 +6,23 @@ Credits: [HiroSec] https://github.com/hirosec
 </code></pre>
 
 ## Update
-<pre>
- #-------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------
 # Default Package Update
 #------------------------------------------------------------------------------- 
-</pre>
 <pre><code>
  # Default Package Update
 apt update -y -q && apt upgrade -y -q 
 </code></pre>
 
-<pre>
 #-------------------------------------------------------------------------------
 # Custom Package Installation [Ansible]
 #-------------------------------------------------------------------------------  
-</pre>
 <pre><code>
 apt install -y -q ansible
 
 apt show ansible
 
- ansible --version
+ansible --version
 
 ansible localhost -m setup  
 </code></pre>
